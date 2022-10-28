@@ -1,11 +1,13 @@
-import React from 'react'
+import React from "react";
 
 const App = () => {
   return (
     <div>
-      <p>App</p>
+      <p className="text-3xl font-bold capitalize">
+        This is react starter with tailwind
+      </p>
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
